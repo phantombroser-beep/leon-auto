@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leon Auto – Terms of Service</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Source+Serif+4:wght@400;600&display=swap">
+<style>
+  /* Layout: single reading column, red beret accent, sections anchored for TikTok URLs (#terms, #privacy) */
+  :root {
+    --bg: #fbfaf8; --fg: #1d2330; --muted: #5b6475; --line: #e3e1dc; --accent: #c8102e; --navy: #1f3a68;
+    --display: "Poppins", system-ui, sans-serif; --body: "Source Serif 4", Georgia, serif;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #12151c; --fg: #e8eaf0; --muted: #a2a9b8; --line: #2a303c; --accent: #ff5a6e; --navy: #8fb0ea; color-scheme: dark } }
+  :root[data-theme="dark"] { --bg: #12151c; --fg: #e8eaf0; --muted: #a2a9b8; --line: #2a303c; --accent: #ff5a6e; --navy: #8fb0ea; color-scheme: dark }
+  body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.6;
+    padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 64px; }
+  main { max-width: 42rem; margin: 0 auto; display: grid; gap: 40px; }
+  h1, h2 { font-family: var(--display); text-wrap: balance; margin: 0; line-height: 1.2; }
+  h1 { font-size: 2.2rem; font-weight: 800; }
+  h1 span { color: var(--accent); }
+  h2 { font-size: 1.35rem; font-weight: 800; color: var(--navy); }
+  section { display: grid; gap: 12px; border-top: 1px solid var(--line); padding-top: 28px; }
+  p, ul { margin: 0; }
+  ul { padding-left: 1.2em; display: grid; gap: 6px; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px 20px; font-family: var(--display); font-weight: 600; font-size: .95rem; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .lead { color: var(--muted); }
+  .eyebrow { font-family: var(--display); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .fr { color: var(--muted); font-style: italic; }
+</style>
+</head>
+<body>
+<main>
+<header style="display:grid;gap:14px">
+    <p class="eyebrow">Personal publishing tool</p>
+    <h1>Leon <span>Auto</span></h1>
+    <p class="lead">Leon Auto is a personal desktop tool that renders short educational 3D videos starring Léon, a cartoon mascot, and publishes them to its owner's own TikTok account through the official TikTok Content Posting API.</p>
+    <p class="fr">Leon Auto est un outil personnel qui crée des vidéos éducatives en 3D avec la mascotte Léon et les publie sur le compte TikTok de son propriétaire, via l'API officielle de TikTok.</p>
+    <nav><a href="./">How it works</a><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav>
+  </header>
+<section id="terms">
+    <h2>Terms of Service</h2>
+    <p class="eyebrow">Last updated 7 November 2026</p>
+    <ul>
+      <li>Leon Auto is provided for the personal use of its owner, free of charge and without warranty.</li>
+      <li>Videos are original works produced by the tool. They contain no third-party footage and must respect the TikTok Community Guidelines and Terms of Service.</li>
+      <li>The owner remains responsible for the content published to their TikTok account and can revoke the tool's access at any time from TikTok settings (Security → Manage app permissions).</li>
+      <li>These terms may be updated; the date above shows the latest version.</li>
+    </ul>
+    <p class="fr">Outil à usage personnel, gratuit et sans garantie. Les vidéos sont originales et respectent les règles de TikTok. Le propriétaire peut retirer l'accès à tout moment depuis les paramètres TikTok.</p>
+  </section>
+</main>
+</body>
+</html>
